@@ -1,10 +1,10 @@
 
 # USA Holidays for Laravel nova.
 
-[![Latest Version on Packagist](https://img.shields.io/packagist/v/palpalani/usholidayscard.svg?style=flat-square)](https://packagist.org/packages/palpalani/usholidayscard)
-[![GitHub Tests Action Status](https://img.shields.io/github/workflow/status/palpalani/usholidayscard/run-tests?label=tests)](https://github.com/palpalani/usholidayscard/actions?query=workflow%3Arun-tests+branch%3Amain)
-[![GitHub Code Style Action Status](https://img.shields.io/github/workflow/status/palpalani/usholidayscard/Check%20&%20fix%20styling?label=code%20style)](https://github.com/palpalani/usholidayscard/actions?query=workflow%3A"Check+%26+fix+styling"+branch%3Amain)
-[![Total Downloads](https://img.shields.io/packagist/dt/palpalani/usholidayscard.svg?style=flat-square)](https://packagist.org/packages/palpalani/usholidayscard)
+[![Latest Version on Packagist](https://img.shields.io/packagist/v/palpalani/us-holidays-card.svg?style=flat-square)](https://packagist.org/packages/palpalani/us-holidays-card)
+[![GitHub Tests Action Status](https://img.shields.io/github/workflow/status/palpalani/us-holidays-card/run-tests?label=tests)](https://github.com/palpalani/us-holidays-card/actions?query=workflow%3Arun-tests+branch%3Amain)
+[![GitHub Code Style Action Status](https://img.shields.io/github/workflow/status/palpalani/us-holidays-card/Check%20&%20fix%20styling?label=code%20style)](https://github.com/palpalani/us-holidays-card/actions?query=workflow%3A"Check+%26+fix+styling"+branch%3Amain)
+[![Total Downloads](https://img.shields.io/packagist/dt/palpalani/us-holidays-card.svg?style=flat-square)](https://packagist.org/packages/palpalani/us-holidays-card)
 
 Prinits list of upcoming holidays for Laravel Nova card.
 

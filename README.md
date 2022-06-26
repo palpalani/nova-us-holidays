@@ -6,7 +6,11 @@
 [![GitHub Code Style Action Status](https://img.shields.io/github/workflow/status/palpalani/us-holidays-card/Check%20&%20fix%20styling?label=code%20style)](https://github.com/palpalani/us-holidays-card/actions?query=workflow%3A"Check+%26+fix+styling"+branch%3Amain)
 [![Total Downloads](https://img.shields.io/packagist/dt/palpalani/us-holidays-card.svg?style=flat-square)](https://packagist.org/packages/palpalani/us-holidays-card)
 
-Prinits list of upcoming holidays for Laravel Nova card.
+A Laravel Nova card that displays the list of upcoming USA holidays.
+
+## Requirements
+    PHP 8.0 or higher
+    Nova 4^3
 
 ## Installation
 
@@ -18,9 +22,23 @@ composer require palpalani/us-holidays-card
 
 ## Usage
 
+To add this card to the dashboard or resource add it to the cards method like this:
+
 ```php
-$usHolidaysCard = new palPalani\UsHolidaysCard();
-echo $usHolidaysCard->echoPhrase('Hello, palPalani!');
+namespace App\Nova\Dashboards;
+
+use palPalani\UsHolidaysCard;
+use Laravel\Nova\Dashboard;
+
+class Main extends Dashboard
+{
+    public function cards(): array
+    {
+        $cards = [
+            new UsHolidaysCard(),
+        ];
+    }
+}
 ```
 
 ## Testing
@@ -28,6 +46,12 @@ echo $usHolidaysCard->echoPhrase('Hello, palPalani!');
 ```bash
 composer test
 ```
+
+## Feedback
+
+If you have any feedback, comments or suggestions, please feel free to open an issue within this repository.
+
+
 
 ## Changelog
 
@@ -40,6 +64,10 @@ Please see [CONTRIBUTING](https://github.com/spatie/.github/blob/main/CONTRIBUTI
 ## Security Vulnerabilities
 
 Please review [our security policy](../../security/policy) on how to report security vulnerabilities.
+
+## Thanks to
+
+[Carbon Support for US Holidays](https://github.com/geoffreyrose/us-holidays), so many thanks to its author and contributors!
 
 ## Credits
 

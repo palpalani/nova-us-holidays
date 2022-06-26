@@ -9,8 +9,9 @@
 A Laravel Nova card that displays the list of upcoming USA holidays.
 
 ## Requirements
+
     PHP 8.0 or higher
-    Nova 4^3
+    Nova ^3.0 or higher
 
 ## Installation
 

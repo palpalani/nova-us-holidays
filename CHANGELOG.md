@@ -1,3 +1,3 @@
 # Changelog
 
-All notable changes to `UsHolidaysCard` will be documented in this file.
+## 2022-07-27 - First release

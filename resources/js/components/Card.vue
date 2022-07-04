@@ -1,16 +1,19 @@
 <template>
-    <card class="flex flex-col items-center justify-center">
-        <div class="px-3 py-3">
-            <h3 class="mr-3 text-base text-80 font-bold">
-                Upcoming US holidays
-            </h3>
-            <p>&nbsp;</p>
-            <ul class="list-reset">
-                <li v-for="item in getHolidays" class="text-xs text-80 leading-normal">
-                    <b>{{ item.name }}</b> in {{ item.days_away }} days<br>
-                    <small>{{ item.date }}</small>
-                </li>
-            </ul>
+    <card class="flex flex-col h-auto">
+        <h3 class="text-90 font-normal text-2xl p-4">
+            Upcoming US holidays
+        </h3>
+        <div class="overflow-hidden overflow-x-auto relative">
+            <table class="table w-full">
+                <tbody>
+                    <tr v-for="item in getHolidays">
+                        <td class="td-fit text-right pr-6 align-middle">
+                        <b>{{ item.name }}</b> in {{ item.days_away }} days<br>
+                        <small>{{ item.date }}</small>
+                        </td>
+                    </tr>
+                </tbody>
+            </table>
         </div>
     </card>
 </template>

@@ -1,5 +1,5 @@
 
-# USA Holidays for Laravel nova.
+# USA Holidays for Laravel Nova.
 
 [![Latest Version on Packagist](https://img.shields.io/packagist/v/palpalani/us-holidays-card.svg?style=flat-square)](https://packagist.org/packages/palpalani/us-holidays-card)
 [![GitHub Tests Action Status](https://img.shields.io/github/workflow/status/palpalani/nova-us-holidays/run-tests?label=tests)](https://github.com/palpalani/nova-us-holidays/actions?query=workflow%3Arun-tests+branch%3Amain)
@@ -10,7 +10,7 @@ A Laravel Nova card that displays the list of upcoming USA holidays.
 
 ## Requirements
 
-    PHP 8.0 or higher
+    PHP 8.2 or higher
     Nova ^3.0 or higher
 
 ## Installation
@@ -51,8 +51,6 @@ composer test
 ## Feedback
 
 If you have any feedback, comments or suggestions, please feel free to open an issue within this repository.
-
-
 
 ## Changelog
 
